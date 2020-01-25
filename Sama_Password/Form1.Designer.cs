@@ -1127,7 +1127,7 @@
             this.bt_save.TabIndex = 30;
             this.bt_save.Text = "ذخیره";
             this.bt_save.UseVisualStyleBackColor = true;
-            this.bt_save.Click += new System.EventHandler(this.button3_Click_1);
+            this.bt_save.Click += new System.EventHandler(this.Button3_Click_1);
             // 
             // mt_EndTime
             // 

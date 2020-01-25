@@ -336,7 +336,7 @@ namespace Sama_Password
         }
         
 
-        private void button3_Click_1(object sender, EventArgs e)
+        private void Button3_Click_1(object sender, EventArgs e)
         {
             int status=0;
             if (rb_Complete.Checked)  
@@ -461,7 +461,8 @@ namespace Sama_Password
             else { Proposal = 0; }
 
             MainSession_Inset insertdata = new MainSession_Inset();
-            insertdata.status = status;
+            
+            insertdata.status=status;
             insertdata.Place = place;
             insertdata.isUserTeachig = isuserteaching;
             insertdata.isSecondTeaching = issecondteachig;
@@ -480,6 +481,14 @@ namespace Sama_Password
             insertdata.isNutrition = Nutrition;
             insertdata.startdate = mt_StartDate.Text;
             insertdata.enddate = mt_EndDate.Text;
+            insertdata.starttime = mt_StartTime.Text;
+            insertdata.endtime = mt_EndTime.Text;
+            insertdata.explane = tx_Explane.Text;
+            insertdata.MainPerson = tx_MainPerson.Text;
+            insertdata.ficilityname = tx_FicilityName.Text;
+            
+            
+
 
 
 
@@ -499,7 +508,7 @@ namespace Sama_Password
            // Combo_Unit.SelectedValue = "";
             Combo_Unit.Refresh();
            
-            string a;
+            
         }
     }
         

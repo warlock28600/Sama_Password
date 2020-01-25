@@ -3,35 +3,137 @@ using System.Data.SqlClient;
 using System.Data;
 
 
+
 namespace Sama_Password
 {
     class MainSession_Inset
     {
         Project_Connection newconnection = new Project_Connection();
-       public int status;
-       public int Place;
-       public string startdate;
-       public string enddate;
-       public string starttime;
-       public string endtime;
-       public string ficilityname;
-       public string MainPerson;
-       public string explane;
-       public int isUserTeachig;
-       public int isSecondTeaching;
-       public int isProblemSolving;
-       public int isServerChanging;
-       public int isSqlInstall;
-       public int isSystemInstall;
-       public int isAmoozesh;
-       public int isMali;
-       public int isEvaluation;
-       public int isTalented;
-       public int isShahed;
-       public int isDoormitory;
-       public int isNutrition;
-       public int isTeacherSalary;
-       public int isProposal;
+        public int status
+        {
+            get { return status; }
+            set { status = value; }
+
+        }
+
+       public int Place
+        {
+            get { return Place;}
+            set { Place = value; }
+        }
+        
+
+       public string startdate
+        {
+            get { return startdate; }
+            set { startdate = value; }
+        }
+        
+       public string enddate
+        {
+            get { return enddate; }
+            set { enddate = value; }
+        }
+       public string starttime
+        {
+            get { return starttime; }
+            set { starttime = value; }
+        }
+       public string endtime
+        {
+            get { return endtime; }
+            set { endtime = value; }
+        }
+       public string ficilityname
+        {
+            get { return ficilityname; }
+            set { ficilityname = value; }
+        }
+       public string MainPerson
+        {
+            get { return MainPerson; }
+            set { MainPerson = value; }
+        }
+       public string explane
+        {
+            get { return explane; }
+            set { explane = value; }
+        }
+       public int isUserTeachig
+        {
+            get { return isUserTeachig; }
+            set { isUserTeachig = value; }
+        }
+       public int isSecondTeaching
+        {
+            get { return isSecondTeaching; }
+            set { isSecondTeaching = value; }
+        }
+       public int isProblemSolving
+        {
+            get { return isProblemSolving; }
+            set { isProblemSolving = value; }
+        }
+       public int isServerChanging
+        {
+            get { return isServerChanging; }
+            set { isServerChanging = value; }
+        }
+       public int isSqlInstall
+        {
+            get { return isSqlInstall; }
+            set { isSqlInstall = value; }
+        }
+       public int isSystemInstall
+        {
+            get { return isSystemInstall; }
+            set { isSystemInstall = value; }
+        }
+       public int isAmoozesh
+        {
+            get { return isAmoozesh; }
+            set { isAmoozesh = value; }
+        }
+       public int isMali
+        {
+            get { return isMali; }
+            set { isMali = value; }
+        }
+       public int isEvaluation
+        {
+            get { return isEvaluation; }
+            set { isEvaluation = value; }
+        }
+       public int isTalented
+        {
+            get { return isTalented; }
+            set { isTalented = value; }
+        }
+       public int isShahed
+        {
+            get { return isShahed; }
+            set { isShahed = value; }
+        }
+       public int isDoormitory
+        {
+            get { return isDoormitory; }
+            set { isDoormitory = value; }
+        }
+       public int isNutrition
+        {
+            get { return isNutrition; }
+            set { isNutrition = value; }
+        }
+       public int isTeacherSalary
+        {
+            get { return isTeacherSalary; }
+            set { isTeacherSalary = value; }
+        }
+       public int isProposal
+        {
+            get { return isProposal; }
+            set { isProposal = value; }
+        }
         public void mainSession()
         {
             newconnection.sqlconn();
